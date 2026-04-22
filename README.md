@@ -36,7 +36,7 @@ quailib-app-samples/
 ```
 
 ## 使い方
-チュートリアルはJupyter Notebook形式で提供されます。それぞれのノートブックをローカル環境やABCI-Q Open OnDemand機能で実行することができます。
+チュートリアルはJupyter Notebook形式で提供されます。それぞれのノートブックをローカル環境やABCI-Q Open OnDemand (https://g-quat-abciq.github.io/abciq-docs/ja/open-ondemand/) 機能で実行することができます。
 
 
 ## 謝辞
