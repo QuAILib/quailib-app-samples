@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
+.pytest_cache/
 
 # Jupyter
 .ipynb_checkpoints/
@@ -18,3 +19,30 @@ Thumbs.db
 # Example outputs
 examples/*/data/output/*
 !examples/*/data/output/.gitkeep
+
+# qklearn_fmqa tutorial: MVTec AD data, feature/model caches, and the venv
+# must never be committed. MVTec AD is licensed CC BY-NC-SA 4.0 and must not be
+# redistributed; each user downloads it themselves.
+tutorials/qklearn_fmqa/.venv/
+tutorials/qklearn_fmqa/venv/
+tutorials/qklearn_fmqa/mvtec_data/
+tutorials/qklearn_fmqa/.mvtec_cache/
+tutorials/qklearn_fmqa/.cache/
+tutorials/qklearn_fmqa/**/*.tar.xz
+tutorials/qklearn_fmqa/**/*.tar.gz
+tutorials/qklearn_fmqa/**/*.npy
+tutorials/qklearn_fmqa/**/*.npz
+tutorials/qklearn_fmqa/**/*.pkl
+tutorials/qklearn_fmqa/**/*.h5
+# MVTec AD must be downloaded by each user (CC BY-NC-SA 4.0, no redistribution);
+# the feature cache is generated at run time.
+tutorials/qklearn_fmqa/data/
+tutorials/qklearn_fmqa/cache/
+
+# cirquit_cut tutorial: the dedicated venv/cache must never be committed.
+# These are normally kept entirely outside the repo via CIRCUIT_CUT_VENV /
+# CIRCUIT_CUT_CACHE, but these patterns are a defense-in-depth backstop in case
+# either ever resolves to a path inside the repo.
+tutorials/cirquit_cut/.venv/
+tutorials/cirquit_cut/venv/
+tutorials/cirquit_cut/.cache/
