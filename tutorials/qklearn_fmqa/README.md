@@ -1,5 +1,7 @@
 # qklearn / SWIFT-FMQA / Qudas チュートリアル（MVTec AD 異常検知）
 
+[English](README_en.md) | 日本語
+
 MVTec ADの`tile`カテゴリを題材に、次の3つのライブラリを組み合わせて
 画像の異常検知とハイパーパラメータ探索を体験するハンズオン用Notebookです。
 
@@ -15,6 +17,8 @@ MVTec ADの`tile`カテゴリを題材に、次の3つのライブラリを組�
 | ファイル | 内容 |
 |---|---|
 | `clustering_qklearn_fmqa_tutorial.ipynb` | ハンズオン用Notebook（上から順に実行します） |
+| `clustering_qklearn_fmqa_tutorial_en.ipynb` | 上のNotebookの英語版（コードと実行結果は同一） |
+| `README_en.md` | このREADMEの英語版 |
 | `manifests/candidates/tile_manifest.csv` | 使用する画像と、学習・閾値決定・Validation・Testへの割り当て（画像そのものは含みません） |
 | `requirements-lock.txt` | バージョンを固定した依存パッケージ一覧 |
 

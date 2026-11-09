@@ -1,5 +1,7 @@
 # 量子・AIハイブリッド技術を活用したアプリケーション開発チュートリアル
 
+[English](README_en.md) | 日本語
+
 このリポジトリでは、量子コンピューティングとAIを組み合わせた技術を活用し、アプリケーションの開発・検証を行うためのチュートリアルを公開しています。量子・AIハイブリッド技術の活用方法を具体的なサンプルを通じて実践的に学ぶことができ、産総研が整備する量子・古典計算基盤（ABCI-Q）上で実行・評価することができます。
 
 # チュートリアルの内容
@@ -25,15 +27,23 @@
 ```text
 quailib-app-samples/
 ├─ README.md
+├─ README_en.md
 ├─ LICENSE
 ├─ .gitignore
 ├─ tutorials/
-│  ├─ curquit_cut/
-│  │  └─ transportation_circuit_cut_tutorial.ipynb
+│  ├─ cirquit_cut/
+│  │  └─ transportation_curcuit_cut_tutorial.ipynb
 │  └─ qklearn_fmqa/
-│     └─ clustering_qklearn_fmqa_tutorial.ipynb
+│     ├─ README.md
+│     ├─ README_en.md
+│     ├─ clustering_qklearn_fmqa_tutorial.ipynb
+│     ├─ clustering_qklearn_fmqa_tutorial_en.ipynb
+│     ├─ manifests/
+│     └─ requirements-lock.txt
 └─ docs/
 ```
+
+`tutorials/qklearn_fmqa/` の詳しい説明（セットアップ、MVTec ADの準備、実行方法）は、[tutorials/qklearn_fmqa/README.md](tutorials/qklearn_fmqa/README.md) を参照してください。
 
 ## 使い方
 チュートリアルはJupyter Notebook形式で提供されます。それぞれのノートブックをローカル環境やABCI-Q Open OnDemand (https://g-quat-abciq.github.io/abciq-docs/ja/open-ondemand/) 機能で実行することができます。
